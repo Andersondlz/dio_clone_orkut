@@ -1,0 +1,16 @@
+header.menu{
+    border: 1px solid blue;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    cursor: auto !important;
+
+}
+
+.container{
+    border: 1px solid blue;
+    width: 80%;
+    height: 100vh;
+}
