@@ -7,16 +7,46 @@
     <link rel="stylesheet" href="./styles/global.css">
     <link rel="stylesheet" href="./styles/Profile/profile.css">
     <link rel="stylesheet" href="./styles/Profile/profile-responsive.css">
+    <script src="https://kit.fontawesome.com/b6b23c7a1e.js" crossorigin="anonymous"></script>
     <title>ORKUT - Profile</title>
 </head>
-<body>
     <header class="menu orkut-button-bg" >
         <nav>
-
+            <div id="title">
+                <h1>ORKUT</h1>
+            </div>
+            <div id="hamburguer">
+                <label for="">&#9776;</label>
+            </div>
         </nav>
     </header>
     <main class="container">
-        <aside class="photo"></aside>
+        <aside class="photo">
+            <div class="photo__avatar">
+                <img src="./imgs/Anderson.png" alt="">
+            </div>
+            <div class="photo__name">
+                <h1 class="orkut-font-color">Anderson da Luz</h1>
+            </div>
+            <div class="photo__tools">
+                <div class="photo__tools__messages">
+                    <i class="fa-solid fa-comments orkut-font-color-default"></i>
+                    <a href="#" class="orkut-link">SCRAPS</a>
+                </div>
+                <div class="photo__tools__editar">
+                    <i class="fa-solid fa-pen orkut-font-color-default"></i>
+                    <a href="#" class="orkut-link">EDITAR PERFIL</a>
+                </div>
+                <div class="photo__tools__gallery">
+                    <i class="fa-solid fa-camera-retro orkut-font-color-default"></i>
+                    <a href="#" class="orkut-link">ALBUM</a>
+                </div>
+                <div class="photo_tools_depositions">
+                    <i class="fa-solid fa-comment orkut-font-color-default"></i>
+                    <a href="#" class="orkut-link">DEPOIMENTO</a>
+                </div>
+            </div>
+        </aside>
         <section class="description"></section>
         <aside class="counter">
             <div class="counter__friend"></div>
